@@ -6,3 +6,12 @@ Create symlinks:
 	
 	ln -s ~/.vim/vimrc ~/.vimrc
 	ln -s ~/.vim/gvimrc ~/.gvimrc
+
+Update a plugin bundle
+  
+  cd ~/.vim/bundle/bundle_name
+  git pull origin master
+
+Update all bundles
+
+  git submodule foreach git pull origin master  
