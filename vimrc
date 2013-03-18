@@ -12,6 +12,9 @@ set ts=2 sts=2 sw=2 expandtab
 syntax on
 colorscheme jellybeans
 
+" NERDTree Mapping
+map <Leader>nt :NERDTree <cr>
+
 if has("autocmd")
 	filetype plugin indent on
 endif
