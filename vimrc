@@ -15,6 +15,9 @@ colorscheme jellybeans
 " NERDTree Mapping
 map <Leader>nt :NERDTree <cr>
 
+" TComment Mapping
+map <Leader>c <c-_><c-_>
+
 if has("autocmd")
 	filetype plugin indent on
 endif
